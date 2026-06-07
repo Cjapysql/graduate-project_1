@@ -1,0 +1,40 @@
+﻿# Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Runtime outputs and logs
+debug_search_log.txt
+*.log
+tmp_*.jpg
+tmp_crop.jpg
+
+# Local vector DB / generated stores
+qdrant_storage/
+*.sqlite
+*.db
+
+# Large local datasets (keep curated samples only)
+/data/
+/webtoon_image/
+/caption_raw/
+/caption_translated/
+/split_jsons/
+/split_jsons_translated/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
